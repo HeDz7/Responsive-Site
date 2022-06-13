@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  z-index: 999;
+  background-color: rgba(85, 85, 85, 0.4);
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+}
+
+.info .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.img-photography {
+  display: flex;
+  justify-content: center;
+}
+
+.hr{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.196);
+}
+
+.photo {
+  width: 10rem;
+  transform: rotateY(180deg);
+}
+
+ .link {
+  text-decoration: none;
+  color: darkred;
+  font-weight: normal;
+}
